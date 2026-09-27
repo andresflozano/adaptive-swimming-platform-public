@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and analysis artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Private source and intermediate data
+data/raw/
+data/extracted/
+
+# Windows download metadata
+*:Zone.Identifier
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+
+# Private conversational references
+data/private_reference/
+
+# Local swimmer records
+data/local_records/

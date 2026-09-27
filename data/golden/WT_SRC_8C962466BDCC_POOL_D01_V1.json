@@ -1,0 +1,332 @@
+{
+  "session_id": "WT_SRC_8C962466BDCC_POOL_D01_V1",
+  "environment": "POOL",
+  "source_id": "SRC_8C962466BDCC",
+  "source_sha256": "8c962466bdcc1efa53f61787f84e6b6a216c4c5e6d0939520baa2d61d372b008",
+  "source_section": "Synthetic demonstration workout",
+  "blocks": [
+    {
+      "sequence": 1,
+      "role": "WARM_UP",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "CONTINUOUS",
+          "repeat_cycles": 1,
+          "rest": null,
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 1,
+              "distance_meters": 200,
+              "exercise": "FREESTYLE",
+              "intensity": "RECOVERY",
+              "equipment": [],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "200 m easy freestyle"
+            }
+          ],
+          "source_text": "200 m easy freestyle"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "200 m easy freestyle"
+    },
+    {
+      "sequence": 2,
+      "role": "PREPARATION",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "REPEATED_INTERVAL",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 60,
+            "application": "BETWEEN_REPETITIONS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 2,
+              "distance_meters": 100,
+              "exercise": "FREESTYLE",
+              "intensity": "UNRESOLVED",
+              "equipment": [
+                "PADDLES_INVERTED"
+              ],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "2 x 100 m technique with inverted paddles, 60 s rest"
+            }
+          ],
+          "source_text": "2 x 100 m technique with inverted paddles, 60 s rest"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "2 x 100 m technique with inverted paddles, 60 s rest"
+    },
+    {
+      "sequence": 3,
+      "role": "MAIN_SET",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "REPEATED_INTERVAL",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 45,
+            "application": "BETWEEN_REPETITIONS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 5,
+              "distance_meters": 100,
+              "exercise": "FREESTYLE",
+              "intensity": "UNRESOLVED",
+              "equipment": [],
+              "target": {
+                "target_type": "REPETITION_COMPLETION_TIME",
+                "raw_value": "1.42",
+                "target_seconds": 102
+              },
+              "swimmer_instruction": null,
+              "source_text": "5 x 100 m freestyle, 45 s rest, target 102 s"
+            }
+          ],
+          "source_text": "5 x 100 m freestyle, 45 s rest, target 102 s"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "5 x 100 m freestyle, 45 s rest, target 102 s"
+    },
+    {
+      "sequence": 4,
+      "role": "MAIN_SET",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "REPEATED_INTERVAL",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 30,
+            "application": "BETWEEN_REPETITIONS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 4,
+              "distance_meters": 50,
+              "exercise": "FREESTYLE",
+              "intensity": "UNRESOLVED",
+              "equipment": [
+                "FINS"
+              ],
+              "target": {
+                "target_type": "REPETITION_COMPLETION_TIME",
+                "raw_value": "38",
+                "target_seconds": 38
+              },
+              "swimmer_instruction": null,
+              "source_text": "4 x 50 m freestyle with fins, 30 s rest, target 38 s"
+            }
+          ],
+          "source_text": "4 x 50 m freestyle with fins, 30 s rest, target 38 s"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "4 x 50 m freestyle with fins, 30 s rest, target 38 s"
+    },
+    {
+      "sequence": 5,
+      "role": "MAIN_SET",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "REPEATED_INTERVAL",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 45,
+            "application": "BETWEEN_REPETITIONS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 5,
+              "distance_meters": 100,
+              "exercise": "FREESTYLE",
+              "intensity": "UNRESOLVED",
+              "equipment": [],
+              "target": {
+                "target_type": "REPETITION_COMPLETION_TIME",
+                "raw_value": "1.42",
+                "target_seconds": 102
+              },
+              "swimmer_instruction": null,
+              "source_text": "5 x 100 m freestyle, 45 s rest, target 102 s"
+            }
+          ],
+          "source_text": "5 x 100 m freestyle, 45 s rest, target 102 s"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "5 x 100 m freestyle, 45 s rest, target 102 s"
+    },
+    {
+      "sequence": 6,
+      "role": "MAIN_SET",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "REPEATED_INTERVAL",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 30,
+            "application": "BETWEEN_REPETITIONS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 4,
+              "distance_meters": 50,
+              "exercise": "FREESTYLE",
+              "intensity": "UNRESOLVED",
+              "equipment": [
+                "FINS"
+              ],
+              "target": {
+                "target_type": "REPETITION_COMPLETION_TIME",
+                "raw_value": "38",
+                "target_seconds": 38
+              },
+              "swimmer_instruction": null,
+              "source_text": "4 x 50 m freestyle with fins, 30 s rest, target 38 s"
+            }
+          ],
+          "source_text": "4 x 50 m freestyle with fins, 30 s rest, target 38 s"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "4 x 50 m freestyle with fins, 30 s rest, target 38 s"
+    },
+    {
+      "sequence": 7,
+      "role": "TECHNIQUE",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "REPEATED_INTERVAL",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 30,
+            "application": "BETWEEN_REPETITIONS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 12,
+              "distance_meters": 25,
+              "exercise": "KICKBOARD_KICK",
+              "intensity": "UNRESOLVED",
+              "equipment": [
+                "KICKBOARD"
+              ],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "12 x 25 m kickboard kick, 30 s rest"
+            }
+          ],
+          "source_text": "12 x 25 m kickboard kick, 30 s rest"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "12 x 25 m kickboard kick, 30 s rest"
+    },
+    {
+      "sequence": 8,
+      "role": "TECHNIQUE",
+      "set_groups": [
+        {
+          "sequence": 1,
+          "set_type": "ORDERED_SEQUENCE",
+          "repeat_cycles": 1,
+          "rest": {
+            "seconds": 30,
+            "application": "BETWEEN_ITEMS",
+            "include_after_final": false
+          },
+          "items": [
+            {
+              "sequence": 1,
+              "repetitions": 1,
+              "distance_meters": 100,
+              "exercise": "ASYMMETRIC",
+              "intensity": "UNRESOLVED",
+              "equipment": [],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "100 m asymmetric technique"
+            },
+            {
+              "sequence": 2,
+              "repetitions": 1,
+              "distance_meters": 100,
+              "exercise": "ASYMMETRIC",
+              "intensity": "UNRESOLVED",
+              "equipment": [],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "100 m asymmetric technique"
+            },
+            {
+              "sequence": 3,
+              "repetitions": 1,
+              "distance_meters": 100,
+              "exercise": "UNILATERAL",
+              "intensity": "UNRESOLVED",
+              "equipment": [],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "100 m unilateral technique"
+            },
+            {
+              "sequence": 4,
+              "repetitions": 1,
+              "distance_meters": 100,
+              "exercise": "UNILATERAL",
+              "intensity": "UNRESOLVED",
+              "equipment": [],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "100 m unilateral technique"
+            },
+            {
+              "sequence": 5,
+              "repetitions": 1,
+              "distance_meters": 100,
+              "exercise": "FREESTYLE",
+              "intensity": "UNRESOLVED",
+              "equipment": [
+                "FINS",
+                "PADDLES"
+              ],
+              "target": null,
+              "swimmer_instruction": null,
+              "source_text": "100 m freestyle with fins and paddles"
+            }
+          ],
+          "source_text": "5 x 100 m ordered technique, 30 s rest"
+        }
+      ],
+      "provenance_type": "SOURCE_EXPLICIT",
+      "source_text": "5 x 100 m ordered technique, 30 s rest"
+    }
+  ]
+}

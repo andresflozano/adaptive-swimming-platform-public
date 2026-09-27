@@ -1,0 +1,15 @@
+{
+  "snapshot_type": "sanitized_public_candidate",
+  "synthetic_source_id": "SRC_8C962466BDCC",
+  "synthetic_source_sha256": "8c962466bdcc1efa53f61787f84e6b6a216c4c5e6d0939520baa2d61d372b008",
+  "synthetic_session_id": "WT_SRC_8C962466BDCC_POOL_D01_V1",
+  "excluded_private_corpus_data": true,
+  "excluded_private_lifecycle_documentation": true,
+  "public_documentation_scope": [
+    "README.md"
+  ],
+  "git_history_included": false,
+  "license_added": true,
+  "license_spdx_id": "Apache-2.0",
+  "license_file": "LICENSE"
+}

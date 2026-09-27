@@ -1,0 +1,13 @@
+# Synthetic reference workout source
+# Created for public demonstration and test coverage.
+200 m easy freestyle
+2 x 100 m technique with inverted paddles, 60 s rest
+5 x 100 m freestyle, 45 s rest, target 102 s
+4 x 50 m freestyle with fins, 30 s rest, target 38 s
+5 x 100 m freestyle, 45 s rest, target 102 s
+4 x 50 m freestyle with fins, 30 s rest, target 38 s
+12 x 25 m kickboard kick, 30 s rest
+5 x 100 m ordered technique, 30 s rest
+100 m asymmetric technique
+100 m unilateral technique
+100 m freestyle with fins and paddles
